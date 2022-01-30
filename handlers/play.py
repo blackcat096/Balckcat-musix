@@ -62,7 +62,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 
 
     image1 = Image.open("./background.png")
-    image2 = Image.open("etc/foreground.png")
+    image2 = Image.open("etc/Picsart_22-01-27_20-08-53-657.png")
     image3 = changeImageSize(1280, 720, image1)
     image4 = changeImageSize(1280, 720, image2)
     image5 = image3.convert("RGBA")
@@ -98,7 +98,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("🔎 **sᴏɴɢ ᴘʀᴏᴄᴇssɪɴɢ ғʀᴏᴍ ᴏᴜʀ sᴇʀᴠᴇʀ...**")
+    lel = await message.reply("🔎 **𝐅𝐢𝐧𝐝𝐢𝐧𝐠 💫 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠 ❤️ ❰ ᴄʜᴏᴛɪ ᴢɪɴᴅʜᴀɢɪ ❱...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -106,7 +106,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "black_cat"
+        user.first_name = "Esport_MusicX"
     usar = user
     wew = usar.id
     try:
@@ -118,7 +118,7 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b> ɴᴀɴᴜ ᴀᴅᴍɪɴ ᴄʜᴀʏᴜ 😒 💫 ❰ ʙʟᴀᴄᴋ ᴄᴀᴛ ❱</b>")
+                        "<b>𝐀𝐝 𝐌𝐞 😎 𝐀𝐬 𝐀𝐝𝐦𝐢𝐧 𝐎𝐟 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 💫  𝐅𝐢𝐫𝐬𝐭 ❰ ᴍʀ ᴀʀʏᴀ ❱</b>")
                     return
 
                 try:
@@ -130,12 +130,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b>❰𝐅𝐥𝐨𝐨𝐝 😒 𝐖𝐚𝐢𝐭 𝐄𝐫𝐫𝐨𝐫  😔❱</b>\n𝐇𝐞𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 🎸 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 ❤️ 𝐂𝐨𝐮𝐥𝐝𝐧'𝐭 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 💫 𝐆𝐫𝐨𝐮𝐩  𝐃𝐮𝐞 𝐓𝐨 𝐇𝐞𝐚𝐯𝐲 𝐉𝐨𝐢𝐧 𝐑𝐞𝐐𝐮𝐞𝐬𝐭 🥀 . 𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 💫 𝐈𝐬 𝐍𝐨𝐭 𝐁𝐚𝐧𝐧𝐞𝐝 😔 𝐈𝐧 𝐆𝐫𝐨𝐮𝐩 🎸  𝐀𝐧𝐝 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 𝐋𝐚𝐭𝐞𝐫 𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 :- ✨ [❛- ᴋᴀɴɴᴀ](https://t.me/The_cat_lover0) ❤️🥀 :) ")
+                        f"<b>❰𝐅𝐥𝐨𝐨𝐝 😒 𝐖𝐚𝐢𝐭 𝐄𝐫𝐫𝐨𝐫  😔❱</b>\n𝐇𝐞𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 🎸 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 ❤️ 𝐂𝐨𝐮𝐥𝐝𝐧'𝐭 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 💫 𝐆𝐫𝐨𝐮𝐩  𝐃𝐮𝐞 𝐓𝐨 𝐇𝐞𝐚𝐯𝐲 𝐉𝐨𝐢𝐧 𝐑𝐞𝐐𝐮𝐞𝐬𝐭 🥀 . 𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 💫 𝐈𝐬 𝐍𝐨𝐭 𝐁𝐚𝐧𝐧𝐞𝐝 😔 𝐈𝐧 𝐆𝐫𝐨𝐮𝐩 🎸  𝐀𝐧𝐝 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 𝐋𝐚𝐭𝐞𝐫 𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 :- ✨ [❛-𝐌𝐫'ᴀʀʏᴀ ❣️](https://t.me/nenu_na_crush) ❤️🥀 :) ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<i>Hey {user.first_name}, 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 🎸 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 𝐈𝐬 𝐍𝐨𝐭 𝐈𝐧 𝐓𝐡𝐢𝐬 𝐂𝐡𝐚𝐭' 𝐀𝐬𝐤 𝐀𝐝𝐦𝐢𝐧 😎 𝐓𝐨 𝐒𝐞𝐧𝐝 /𝐏𝐥𝐚𝐲 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 😎 𝐅𝐨𝐫 𝐅𝐢𝐫𝐬𝐭 𝐓𝐢𝐦𝐞 𝐓𝐨 𝐀𝐝𝐝 𝐈𝐭 𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 :- ✨ [❛- ᴋᴀɴɴᴀ](https://t.me/The_cat_lover0) ❤️🥀 </i>")
+            f"<i>Hey {user.first_name}, 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 🎸 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 𝐈𝐬 𝐍𝐨𝐭 𝐈𝐧 𝐓𝐡𝐢𝐬 𝐂𝐡𝐚𝐭' 𝐀𝐬𝐤 𝐀𝐝𝐦𝐢𝐧 😎 𝐓𝐨 𝐒𝐞𝐧𝐝 /𝐏𝐥𝐚𝐲 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 😎 𝐅𝐨𝐫 𝐅𝐢𝐫𝐬𝐭 𝐓𝐢𝐦𝐞 𝐓𝐨 𝐀𝐝𝐝 𝐈𝐭 𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 :- ✨ [❛-𝐌ʀ ᴀʀʏᴀ ❣️](https://t.me/nenu_na_crush) ❤️🥀 </i>")
         return
     
     audio = (
@@ -153,7 +153,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/f4e1c2ebc7a14110faf47.jpg"
+        thumb_name = "https://te.legra.ph/file/cdb11db8885e10e042964.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -162,22 +162,22 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="ʙʟᴀᴄᴋ ᴄᴀᴛ ",
-                            url=f"https://t.me/The_cat_lover0")
+                            text="𝐂ʜᴀᴛᴛɪɴɢ ɢʀᴏᴜᴘ 😁",
+                            url=f"https://t.me/friends_life_forever")
                ],
                [
                     InlineKeyboardButton(
-                            text="ᴍᴇᴏᴡ",
-                            url=f"https://t.me/catmusicworld"),
+                            text="ᴍʀ ᴀʀʏᴀ",
+                            url=f"https://t.me/nenu_na_crush"),
                             
                     InlineKeyboardButton(
-                            text="ɴɪʙʙᴀ🥀",
-                            url=f"https://t.me/S_SilentB0Y_Y")
+                            text="𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🥀",
+                            url=f"https://t.me/friends_life_forever")
                ],
                [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩⭐",
-                            url=f"https://t.me/TeluguCrazyPeople")
+                            url=f"https://t.me/friends_life_forever")
                    
                 ]
             ]
@@ -215,22 +215,22 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="ʙʟᴀᴄᴋ ᴄᴀᴛ ",
-                            url=f"https://t.me/The_cat_lover0")
+                            text="𝐂ʜᴀᴛᴛɪɴɢ ɢʀᴏᴜᴘ 😁",
+                            url=f"https://t.me/friends_life_forever")
                ],
                [
                     InlineKeyboardButton(
-                            text="ᴍᴇᴏᴡ",
-                            url=f"https://t.me/catmusicworld"),
+                            text="ᴍʀ ᴀʀʏᴀ",
+                            url=f"https://t.me/nenu_na_crush"),
                             
                     InlineKeyboardButton(
-                            text="ɴɪʙʙᴀ🥀",
-                            url=f"https://t.me/S_SilentB0Y_Y")
+                            text="𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🥀",
+                            url=f"https://t.me/friends_life_forever")
                ],
                [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩⭐",
-                            url=f"https://t.me/TeluguCrazyPeople")
+                            url=f"https://t.me/friends_life_forever")
                    
                 ]
             ]
@@ -238,29 +238,29 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/f4e1c2ebc7a14110faf47.jpg"
+            thumb_name = "https://te.legra.ph/file/cdb11db8885e10e042964.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                            text="ʙʟᴀᴄᴋ ᴄᴀᴛ ",
-                            url=f"https://t.me/The_cat_lover0")
+                            text="𝐂ʜᴀᴛᴛɪɴɢ ɢʀᴏᴜᴘ 😁",
+                            url=f"https://t.me/friends_life_forever")
                ],
                [
                     InlineKeyboardButton(
-                            text="ᴍᴇᴏᴡ",
-                            url=f"https://t.me/catmusicworld"),
+                            text="ᴍʀ ᴀʀʏᴀ",
+                            url=f"https://t.me/nenu_na_crush"),
                             
                     InlineKeyboardButton(
-                            text="ɴɪʙʙᴀ 🥀",
-                            url=f"https://t.me/S_SilentB0Y_Y")
+                            text="𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🥀",
+                            url=f"https://t.me/friends_life_forever")
                ],
                [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩⭐",
-                            url=f"https://t.me/TeluguCrazyPeople")
+                            url=f"https://t.me/friends_life_forever")
                    
                 ]
             ]
@@ -277,7 +277,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "✌ɴɪᴋ ᴀ ❤️ 𝐒𝐨𝐧𝐠 🎸 ᴋᴀᴠᴀʟɪ ᴏʜ ᴘʟᴀʏ  🎧  ᴄʜᴇsᴋᴏ ▶ ❤️**"
+                "✌❤️ ᴜɴᴅᴅᴜ ʀᴀ ɴɪʙʙᴀ sᴏɴɢ 🎸 ᴘʀᴏᴄᴇss 🎧 ᴀʏɪᴛʜᴜɴᴅʜɪ ▶ ❤️**"
             )
         await lel.edit("🔎")
         query = message.text.split(None, 1)[1]
@@ -304,7 +304,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "**🌸° ᴀʀᴇʏ 🎸 ɴɪʙʙᴀ 😒 sᴘᴇʟʟɪɴɢ ᴄʀᴛ ᴋᴏᴛᴛᴜ ° 🥀.**"
+                "**🌸° 𝐒𝐨𝐧𝐠 🎸 𝐍𝐨𝐭 😒 𝐅𝐨𝐮𝐧𝐝 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠 𝐏𝐫𝐨𝐛𝐥𝐞𝐦 ° 🥀.**"
             )
             print(str(e))
             return
@@ -313,22 +313,22 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="ʙʟᴀᴄᴋ ᴄᴀᴛ ",
-                            url=f"https://t.me/The_cat_lover0")
+                            text="𝐂ʜᴀᴛᴛɪɴɢ ɢʀᴏᴜᴘ 😁",
+                            url=f"https://t.me/friends_life_forever")
                ],
                [
                     InlineKeyboardButton(
-                            text="ᴍᴇᴏᴡ",
-                            url=f"https://t.me/catmusicworld"),
+                            text="ᴍʀ ᴀʀʏᴀ",
+                            url=f"https://t.me/nenu_na_crush"),
                             
                     InlineKeyboardButton(
-                            text="ɴɪʙʙᴀ🥀",
-                            url=f"https://t.me/S_SilentB0Y_Y")
+                            text="𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🥀",
+                            url=f"https://t.me/friends_life_forever")
                ],
                [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩⭐",
-                            url=f"https://t.me/TeluguCrazyPeople")
+                            url=f"https://t.me/friends_life_forever")
                    
                 ]
             ]
@@ -350,7 +350,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="****❰  𝐁𝐋𝐀𝐂𝐊 𝐂𝐀𝐓 ❘ 𝐍𝐄𝐓𝐖𝐎𝐑𝐊😈 ❱ 𝐒𝐨𝐧𝐠 ❤️ 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 💫🤟** {}**".format(position),
+            caption="****❰ ᴄʜᴏᴛɪ ❘ ᴢɪɴᴅʜᴀɢɪ 😈 ❱ 𝐒𝐨𝐧𝐠 ❤️ 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 💫🤟** {}**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -367,7 +367,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**❰ 𝐁𝐋𝐀𝐂𝐊 𝐂𝐀𝐓 ❘ 𝐍𝐄𝐓𝐖𝐎𝐑𝐊😈 ❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀 𝐀𝐭 🤟 `{}`...**".format(
+            caption="**❰ ᴄʜᴏᴛɪ ❘ ᴢɪɴᴅʜᴀɢɪ 💞 ❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀 𝐀𝐭 🤟 `{}`... ᴏᴡɴᴇʀ:@nenu_na_crush**".format(
         message.chat.title
         ), )
 
